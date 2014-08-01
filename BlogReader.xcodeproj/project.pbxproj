@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5EAE201019760CF60096C2F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EAE200F19760CF60096C2F4 /* Foundation.framework */; };
+		5EAE201219760CF60096C2F4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EAE201119760CF60096C2F4 /* CoreGraphics.framework */; };
+		5EAE201419760CF60096C2F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EAE201319760CF60096C2F4 /* UIKit.framework */; };
+		5EAE201A19760CF60096C2F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5EAE201819760CF60096C2F4 /* InfoPlist.strings */; };
+		5EAE201C19760CF60096C2F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAE201B19760CF60096C2F4 /* main.m */; };
+		5EAE202019760CF70096C2F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAE201F19760CF70096C2F4 /* AppDelegate.m */; };
+		5EAE202219760CF70096C2F4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EAE202119760CF70096C2F4 /* Images.xcassets */; };
+		5EAE202919760CF70096C2F4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EAE202819760CF70096C2F4 /* XCTest.framework */; };
+		5EAE202A19760CF70096C2F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EAE200F19760CF60096C2F4 /* Foundation.framework */; };
+		5EAE202B19760CF70096C2F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EAE201319760CF60096C2F4 /* UIKit.framework */; };
+		5EAE203319760CF70096C2F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5EAE203119760CF70096C2F4 /* InfoPlist.strings */; };
+		5EAE203519760CF70096C2F4 /* BlogReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAE203419760CF70096C2F4 /* BlogReaderTests.m */; };
+		5EAE203F19760D450096C2F4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EAE203E19760D450096C2F4 /* MainStoryboard.storyboard */; };
+		5EAE204219760ED00096C2F4 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAE204119760ED00096C2F4 /* TableViewController.m */; };
+		5EAE2045197728200096C2F4 /* BlogPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAE2044197728200096C2F4 /* BlogPost.m */; };
+		5EAE2047197735C60096C2F4 /* logo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5EAE2046197735C60096C2F4 /* logo.jpeg */; };
+		5EAE204A197747AA0096C2F4 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAE2049197747AA0096C2F4 /* WebViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5EAE202C19760CF70096C2F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EAE200419760CF60096C2F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EAE200B19760CF60096C2F4;
+			remoteInfo = BlogReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5EAE200C19760CF60096C2F4 /* BlogReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlogReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EAE200F19760CF60096C2F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5EAE201119760CF60096C2F4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5EAE201319760CF60096C2F4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5EAE201719760CF60096C2F4 /* BlogReader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlogReader-Info.plist"; sourceTree = "<group>"; };
+		5EAE201919760CF60096C2F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5EAE201B19760CF60096C2F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5EAE201D19760CF60096C2F4 /* BlogReader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlogReader-Prefix.pch"; sourceTree = "<group>"; };
+		5EAE201E19760CF70096C2F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5EAE201F19760CF70096C2F4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5EAE202119760CF70096C2F4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5EAE202719760CF70096C2F4 /* BlogReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlogReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EAE202819760CF70096C2F4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5EAE203019760CF70096C2F4 /* BlogReaderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlogReaderTests-Info.plist"; sourceTree = "<group>"; };
+		5EAE203219760CF70096C2F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5EAE203419760CF70096C2F4 /* BlogReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlogReaderTests.m; sourceTree = "<group>"; };
+		5EAE203E19760D450096C2F4 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		5EAE204019760ED00096C2F4 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		5EAE204119760ED00096C2F4 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		5EAE2043197728200096C2F4 /* BlogPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlogPost.h; sourceTree = "<group>"; };
+		5EAE2044197728200096C2F4 /* BlogPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlogPost.m; sourceTree = "<group>"; };
+		5EAE2046197735C60096C2F4 /* logo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpeg; sourceTree = "<group>"; };
+		5EAE2048197747AA0096C2F4 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		5EAE2049197747AA0096C2F4 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EAE200919760CF60096C2F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EAE201219760CF60096C2F4 /* CoreGraphics.framework in Frameworks */,
+				5EAE201419760CF60096C2F4 /* UIKit.framework in Frameworks */,
+				5EAE201019760CF60096C2F4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EAE202419760CF70096C2F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EAE202919760CF70096C2F4 /* XCTest.framework in Frameworks */,
+				5EAE202B19760CF70096C2F4 /* UIKit.framework in Frameworks */,
+				5EAE202A19760CF70096C2F4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5EAE200319760CF60096C2F4 = {
+			isa = PBXGroup;
+			children = (
+				5EAE201519760CF60096C2F4 /* BlogReader */,
+				5EAE202E19760CF70096C2F4 /* BlogReaderTests */,
+				5EAE200E19760CF60096C2F4 /* Frameworks */,
+				5EAE200D19760CF60096C2F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5EAE200D19760CF60096C2F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EAE200C19760CF60096C2F4 /* BlogReader.app */,
+				5EAE202719760CF70096C2F4 /* BlogReaderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EAE200E19760CF60096C2F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5EAE200F19760CF60096C2F4 /* Foundation.framework */,
+				5EAE201119760CF60096C2F4 /* CoreGraphics.framework */,
+				5EAE201319760CF60096C2F4 /* UIKit.framework */,
+				5EAE202819760CF70096C2F4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5EAE201519760CF60096C2F4 /* BlogReader */ = {
+			isa = PBXGroup;
+			children = (
+				5EAE201E19760CF70096C2F4 /* AppDelegate.h */,
+				5EAE201F19760CF70096C2F4 /* AppDelegate.m */,
+				5EAE202119760CF70096C2F4 /* Images.xcassets */,
+				5EAE201619760CF60096C2F4 /* Supporting Files */,
+				5EAE203E19760D450096C2F4 /* MainStoryboard.storyboard */,
+				5EAE204019760ED00096C2F4 /* TableViewController.h */,
+				5EAE204119760ED00096C2F4 /* TableViewController.m */,
+				5EAE2043197728200096C2F4 /* BlogPost.h */,
+				5EAE2044197728200096C2F4 /* BlogPost.m */,
+				5EAE2048197747AA0096C2F4 /* WebViewController.h */,
+				5EAE2049197747AA0096C2F4 /* WebViewController.m */,
+			);
+			path = BlogReader;
+			sourceTree = "<group>";
+		};
+		5EAE201619760CF60096C2F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5EAE2046197735C60096C2F4 /* logo.jpeg */,
+				5EAE201719760CF60096C2F4 /* BlogReader-Info.plist */,
+				5EAE201819760CF60096C2F4 /* InfoPlist.strings */,
+				5EAE201B19760CF60096C2F4 /* main.m */,
+				5EAE201D19760CF60096C2F4 /* BlogReader-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5EAE202E19760CF70096C2F4 /* BlogReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				5EAE203419760CF70096C2F4 /* BlogReaderTests.m */,
+				5EAE202F19760CF70096C2F4 /* Supporting Files */,
+			);
+			path = BlogReaderTests;
+			sourceTree = "<group>";
+		};
+		5EAE202F19760CF70096C2F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5EAE203019760CF70096C2F4 /* BlogReaderTests-Info.plist */,
+				5EAE203119760CF70096C2F4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EAE200B19760CF60096C2F4 /* BlogReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EAE203819760CF70096C2F4 /* Build configuration list for PBXNativeTarget "BlogReader" */;
+			buildPhases = (
+				5EAE200819760CF60096C2F4 /* Sources */,
+				5EAE200919760CF60096C2F4 /* Frameworks */,
+				5EAE200A19760CF60096C2F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlogReader;
+			productName = BlogReader;
+			productReference = 5EAE200C19760CF60096C2F4 /* BlogReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5EAE202619760CF70096C2F4 /* BlogReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EAE203B19760CF70096C2F4 /* Build configuration list for PBXNativeTarget "BlogReaderTests" */;
+			buildPhases = (
+				5EAE202319760CF70096C2F4 /* Sources */,
+				5EAE202419760CF70096C2F4 /* Frameworks */,
+				5EAE202519760CF70096C2F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EAE202D19760CF70096C2F4 /* PBXTargetDependency */,
+			);
+			name = BlogReaderTests;
+			productName = BlogReaderTests;
+			productReference = 5EAE202719760CF70096C2F4 /* BlogReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EAE200419760CF60096C2F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = example;
+				TargetAttributes = {
+					5EAE202619760CF70096C2F4 = {
+						TestTargetID = 5EAE200B19760CF60096C2F4;
+					};
+				};
+			};
+			buildConfigurationList = 5EAE200719760CF60096C2F4 /* Build configuration list for PBXProject "BlogReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5EAE200319760CF60096C2F4;
+			productRefGroup = 5EAE200D19760CF60096C2F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EAE200B19760CF60096C2F4 /* BlogReader */,
+				5EAE202619760CF70096C2F4 /* BlogReaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EAE200A19760CF60096C2F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EAE203F19760D450096C2F4 /* MainStoryboard.storyboard in Resources */,
+				5EAE201A19760CF60096C2F4 /* InfoPlist.strings in Resources */,
+				5EAE2047197735C60096C2F4 /* logo.jpeg in Resources */,
+				5EAE202219760CF70096C2F4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EAE202519760CF70096C2F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EAE203319760CF70096C2F4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EAE200819760CF60096C2F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EAE202019760CF70096C2F4 /* AppDelegate.m in Sources */,
+				5EAE204A197747AA0096C2F4 /* WebViewController.m in Sources */,
+				5EAE204219760ED00096C2F4 /* TableViewController.m in Sources */,
+				5EAE201C19760CF60096C2F4 /* main.m in Sources */,
+				5EAE2045197728200096C2F4 /* BlogPost.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EAE202319760CF70096C2F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EAE203519760CF70096C2F4 /* BlogReaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5EAE202D19760CF70096C2F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EAE200B19760CF60096C2F4 /* BlogReader */;
+			targetProxy = 5EAE202C19760CF70096C2F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5EAE201819760CF60096C2F4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EAE201919760CF60096C2F4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5EAE203119760CF70096C2F4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EAE203219760CF70096C2F4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5EAE203619760CF70096C2F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5EAE203719760CF70096C2F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EAE203919760CF70096C2F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlogReader/BlogReader-Prefix.pch";
+				INFOPLIST_FILE = "BlogReader/BlogReader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5EAE203A19760CF70096C2F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlogReader/BlogReader-Prefix.pch";
+				INFOPLIST_FILE = "BlogReader/BlogReader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5EAE203C19760CF70096C2F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BlogReader.app/BlogReader";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlogReader/BlogReader-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BlogReaderTests/BlogReaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5EAE203D19760CF70096C2F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BlogReader.app/BlogReader";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlogReader/BlogReader-Prefix.pch";
+				INFOPLIST_FILE = "BlogReaderTests/BlogReaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EAE200719760CF60096C2F4 /* Build configuration list for PBXProject "BlogReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EAE203619760CF70096C2F4 /* Debug */,
+				5EAE203719760CF70096C2F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EAE203819760CF70096C2F4 /* Build configuration list for PBXNativeTarget "BlogReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EAE203919760CF70096C2F4 /* Debug */,
+				5EAE203A19760CF70096C2F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5EAE203B19760CF70096C2F4 /* Build configuration list for PBXNativeTarget "BlogReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EAE203C19760CF70096C2F4 /* Debug */,
+				5EAE203D19760CF70096C2F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5EAE200419760CF60096C2F4 /* Project object */;
+}
